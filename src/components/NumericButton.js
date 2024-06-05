@@ -1,7 +1,9 @@
-const NumericButton = ({value}) => {
+const NumericButton = ({value, onClick}) => {
     let numericValue = value
     return (
-        <button className='w-full text-white-600 text-left'>{numericValue}</button>
+        <button className='w-full text-white-600 text-left' onClick={(event) => {
+            onClick({numericValue})
+        }}>{numericValue}</button>
     )
 }
 
