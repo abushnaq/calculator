@@ -1,3 +1,14 @@
+This project is intended to be playground for learning the basics of React. There will be two other parallel projects(`-ReactNative` and `-SwiftUI` respectively) that will serve as ways to learn and improve what I know of all three technologies.
+
+Still needed for this project:
+1. Better format the result label.
+2. Add the `=` button.
+3. Add `+/-`, `%`, and `C` buttons.
+4. Look into adding a scientific mode.
+
+
+Original read me below for my reference:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
